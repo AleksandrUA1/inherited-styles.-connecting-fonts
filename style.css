@@ -42,7 +42,7 @@ body {
 }
 .button {
     background-color: #34547A;
-    width: 255px;
+    width: 225px;
     height: 65px;
     text-align: center;
     text-transform: uppercase;
@@ -61,4 +61,37 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+.blue_bl {
+    background-color: #34547A;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carts {
+    display: inline-block;
+    vertical-align: top;
+    margin: 50px 30px 50px 0;
+    color: white;
+}
+.size.icon {
+    width: 50px;
+    margin-right: 15px;
+}
+.in_bl {
+    display: inline-block;
+    vertical-align: top;
+}
+.width_80 {
+    width: 80px;
+}
+.st_video {
+    width: 1110px;
+    height: 600px;
+}
+.color_font {
+    color: white;
+}
+.size_font {
+    font-weight: 500;
+    font-size: 21px;
 }
