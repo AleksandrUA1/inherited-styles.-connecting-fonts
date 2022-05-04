@@ -8,17 +8,18 @@ body {
 .first_bl {
     background-color: #EEEFF1;
 }
-.first_bl.space {
+.bl.space {
     margin-left: auto;
     margin-right: auto;
     width: 1070px;
-    padding-top: 80px;
-    padding-bottom: 140px;
+    padding: 50px;
+}
+.menu.space {
+    padding: 30px 0 50px 0;
 }
 .menu {
     display: inline-block;
     vertical-align: top;
-    margin-left: 40px; /* этот маржин наследуется ниже! */
 }
 .link.menu {
     text-decoration: none;
@@ -26,13 +27,38 @@ body {
     color: #34547A;
     font-size: 16px;
     font-weight: 500;
-    margin-left: 0px; /* Почему наследуется маржин? */
+    margin-right: 40px;
 }
-.head_title {
-    display: inline-block;
-    
-    margin-left: 40px;
-    margin-top: 150px;
+.head.name {
     font-size: 48px;
     font-weight: 500;
+    padding: 100px 0 50px 0;
+}
+.bl_content {
+    line-height: 26px;
+    color: #727272;
+    font-size: 16px;
+    width: 540px;
+}
+.button {
+    background-color: #34547A;
+    width: 255px;
+    height: 65px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #fff;
+    margin: 50px 0 100px 0;
+}
+.bl.name {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 500;
+    padding: 50px 0 40px 0;
+    vertical-align: auto;
+}
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
